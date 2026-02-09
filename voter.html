@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voter Registration</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 14pt;
+            font-style: italic;
+            color: blue;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Election Commission</h1>
+    <h2>Voter Registration Form</h2>
+
+    <form>
+        <table border="5" align="center" cellspacing="10" cellpadding="10" bordercolor="green">
+            
+            <tr style=color:red;background-color:blue>
+                <td>Name:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr style=color:red;background-color:red>
+                <td>Contact Number:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr style=background-color:slateblue>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="g"> Male
+                    <input type="radio" name="g"> Female
+                    <input type="radio" name="g"> Other
+                </td>
+            </tr>
+
+            <tr style=color:red;background-color:pink>
+                <td>Address:</td>
+                <td><textarea rows="5" cols="15"></textarea></td>
+            </tr>
+
+            <tr style=color:red;background-color:yellow>
+                <td>District:</td>
+                <td>
+                    <select>
+                        <option>--SELECT--</option>
+                        <option>District 1</option>
+                        <option>District 2</option>
+                        <option>District 3</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr style=color:red;background-color:magenta>
+                <td>State:</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr style=color:red;background-color:dodgerblue>
+                <td>Citizenship:</td>
+                <td>
+                    <input type="radio" name="c"> Indian Citizen
+                    <input type="radio" name="c"> Other
+                </td>
+            </tr>
+
+            <tr style=color:red;background-color:lightcoral>
+                <td>Identity Proof:</td>
+                <td>
+                    <input type="checkbox"> Aadhaar
+                    <input type="checkbox"> Passport
+                    <input type="checkbox"> Driving License
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
+
