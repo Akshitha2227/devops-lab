@@ -1,0 +1,11 @@
+body {
+  text-align:center;
+  font-size: 14pt;
+  font-style: italic;
+  color: blue;
+  border-top: 5pt solid red;
+  border-bottom: 5pt dashed blue;
+  background-color:lightblue;
+  
+}
+
