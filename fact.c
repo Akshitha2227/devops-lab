@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i;
+    int i;
 int n=5;
     int fact=1;
 
@@ -11,7 +11,7 @@ int n=5;
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf("Factorial = %d\n"fact);
+        printf("Factorial = %d\n",fact);
     }
     return 0;
 }
