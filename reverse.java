@@ -2,7 +2,7 @@ class reverse
 {
 public static void main(String args[])
 {
-int n=Integer.parseInt(args[0]);
+int n=234;
 int rev=0;
 int r;
 while(n>0)
